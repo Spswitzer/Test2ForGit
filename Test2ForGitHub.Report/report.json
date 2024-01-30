@@ -1,5 +1,5 @@
 {
-  "config": "{\"version\":\"5.50\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY23SU11\",\"version\":\"5.50\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"useEnhancedTooltips\":true,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}]}}",
+  "config": "{\"version\":\"5.50\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY23SU11\",\"version\":\"5.50\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":0,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"useEnhancedTooltips\":true,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}]}}",
   "layoutOptimization": 0,
   "resourcePackages": [
     {
@@ -27,13 +27,13 @@
       "name": "ReportSection",
       "visualContainers": [
         {
-          "config": "{\"name\":\"529dbb562aca46c95eee\",\"layouts\":[{\"id\":0,\"position\":{\"x\":299.70443349753697,\"y\":156.94581280788177,\"z\":1,\"width\":97.53694581280789,\"height\":122.36453201970444,\"tabOrder\":1}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Test2\"}]}]}}]}}}",
+          "config": "{\"name\":\"529dbb562aca46c95eee\",\"layouts\":[{\"id\":0,\"position\":{\"x\":299.70443349753697,\"y\":156.94581280788177,\"z\":1000,\"width\":97.53694581280789,\"height\":122.36453201970444,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Test2\"}]}]}}]}}}",
           "filters": "[]",
           "height": 122.36,
           "width": 97.54,
           "x": 299.70,
           "y": 156.95,
-          "z": 1.00
+          "z": 1000.00
         },
         {
           "config": "{\"name\":\"b8d1c093dc361d1a2a5c\",\"layouts\":[{\"id\":0,\"position\":{\"x\":230.54187192118226,\"y\":86.89655172413794,\"z\":0,\"width\":280.1970443349754,\"height\":280.1970443349754,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"shape\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangle'\"}}}}}],\"rotation\":[{\"properties\":{\"shapeAngle\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
@@ -43,6 +43,15 @@
           "x": 230.54,
           "y": 86.90,
           "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"ff6a29304c0dd48f7d22\",\"layouts\":[{\"id\":0,\"position\":{\"x\":537.5800156128025,\"y\":86.93208430913349,\"z\":1001,\"width\":279.78142076502735,\"height\":279.78142076502735,\"tabOrder\":1001}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Table.Color\"},{\"queryRef\":\"Table.Fruit\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"Table\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Color\"},\"Name\":\"Table.Color\",\"NativeReferenceName\":\"Color\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Fruit\"},\"Name\":\"Table.Fruit\",\"NativeReferenceName\":\"Fruit\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 279.78,
+          "width": 279.78,
+          "x": 537.58,
+          "y": 86.93,
+          "z": 1001.00
         }
       ],
       "width": 1280.00
